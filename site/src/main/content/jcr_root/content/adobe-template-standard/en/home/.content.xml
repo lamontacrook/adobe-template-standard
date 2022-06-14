@@ -2,6 +2,8 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
+        cq:lastModified="{Date}2022-06-14T07:44:05.965-06:00"
+        cq:lastModifiedBy="admin"
         cq:template="/conf/adobe-template-standard/settings/wcm/templates/home-page"
         jcr:primaryType="cq:PageContent"
         jcr:title="Home"
@@ -21,12 +23,20 @@
                     layout="responsiveGrid">
                     <teaser
                         jcr:description="&lt;p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&lt;/p>&#xd;&#xa;"
+                        jcr:lastModified="{Date}2022-06-14T07:43:35.814-06:00"
+                        jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="This is a Teaser"
                         sling:resourceType="core/wcm/components/teaser/v2/teaser"
                         actionsEnabled="true"
+                        alt="banner"
+                        altValueFromDAM="false"
+                        altValueFromPageImage="true"
                         descriptionFromPage="false"
-                        fileReference="/content/dam/adobe-template-standard/Image@2x.png"
+                        fileReference="/content/dam/adobe-template-standard/banner.jpg"
+                        imageFromPageImage="false"
+                        isDecorative="false"
+                        linkTarget="_self"
                         pretitle="Teasers"
                         textIsRich="true"
                         titleFromPage="false">
@@ -34,10 +44,12 @@
                             <item0
                                 jcr:primaryType="nt:unstructured"
                                 link="https://www.adobe.com"
+                                linkTarget="_self"
                                 text="Button default"/>
                             <item1
                                 jcr:primaryType="nt:unstructured"
                                 link="https://www.adobe.com"
+                                linkTarget="_self"
                                 text="Button default"/>
                         </actions>
                     </teaser>
@@ -77,14 +89,21 @@
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="core/wcm/components/separator/v1/separator"/>
                     <teaser_707130440
-                        cq:styleIds="[1612897500904,1612830658386]"
+                        cq:styleIds="[1612830658386]"
                         jcr:description="&lt;p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&lt;/p>&#xd;&#xa;"
+                        jcr:lastModified="{Date}2022-06-14T07:43:52.636-06:00"
+                        jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="This is a Teaser"
                         sling:resourceType="core/wcm/components/teaser/v2/teaser"
                         actionsEnabled="true"
+                        alt="teaser"
+                        altValueFromDAM="false"
                         descriptionFromPage="false"
-                        fileReference="/content/dam/adobe-template-standard/building_large.png"
+                        fileReference="/content/dam/adobe-template-standard/a.jpg"
+                        imageFromPageImage="false"
+                        isDecorative="false"
+                        linkTarget="_self"
                         pretitle="Teasers"
                         textIsRich="true"
                         titleFromPage="false">
@@ -98,22 +117,31 @@
                             <item0
                                 jcr:primaryType="nt:unstructured"
                                 link="https://www.adobe.com"
+                                linkTarget="_self"
                                 text="Button default"/>
                             <item1
                                 jcr:primaryType="nt:unstructured"
                                 link="https://www.adobe.com"
+                                linkTarget="_self"
                                 text="Button default"/>
                         </actions>
                     </teaser_707130440>
                     <teaser
-                        cq:styleIds="[1612830658386,1612897500904]"
+                        cq:styleIds="[1612830658386]"
                         jcr:description="&lt;p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&lt;/p>&#xd;&#xa;"
+                        jcr:lastModified="{Date}2022-06-14T07:44:05.935-06:00"
+                        jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="This is a Teaser"
                         sling:resourceType="core/wcm/components/teaser/v2/teaser"
                         actionsEnabled="true"
+                        alt="banner"
+                        altValueFromDAM="false"
                         descriptionFromPage="false"
-                        fileReference="/content/dam/adobe-template-standard/building_large.png"
+                        fileReference="/content/dam/adobe-template-standard/a.jpg"
+                        imageFromPageImage="false"
+                        isDecorative="false"
+                        linkTarget="_self"
                         pretitle="Teasers"
                         textIsRich="true"
                         titleFromPage="false">
@@ -127,10 +155,12 @@
                             <item0
                                 jcr:primaryType="nt:unstructured"
                                 link="https://www.adobe.com"
+                                linkTarget="_self"
                                 text="Button default"/>
                             <item1
                                 jcr:primaryType="nt:unstructured"
                                 link="https://www.adobe.com"
+                                linkTarget="_self"
                                 text="Button default"/>
                         </actions>
                     </teaser>

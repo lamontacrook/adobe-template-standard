@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
+    <de/>
+    <fr/>
     <jcr:content
         cq:allowedTemplates="[/conf/adobe-template-standard/settings/wcm/templates/(?!xf-).*]"
         cq:conf="/conf/adobe-template-standard"
         cq:redirectTarget="/content/adobe-template-standard/en"
         cq:template="/conf/adobe-template-standard/settings/wcm/templates/home-page"
         jcr:primaryType="cq:PageContent"
-        jcr:title="My Site"
+        jcr:title="adobe-template-standard"
         sling:configRef="/conf/adobe-template-standard"
         sling:redirect="{Boolean}true"
         sling:redirectStatus="{Long}302"

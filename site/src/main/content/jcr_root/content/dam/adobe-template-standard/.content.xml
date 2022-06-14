@@ -4,11 +4,13 @@
     <jcr:content
         cq:conf="/conf/adobe-template-standard"
         jcr:primaryType="nt:unstructured"
-        jcr:title="My Site">
+        jcr:title="adobe-template-standard">
         <folderThumbnail/>
     </jcr:content>
     <asset.jpg/>
     <Image_x0040_2x.png/>
     <Group_x0020_3458_x0040_2x.png/>
     <building_large.png/>
+    <banner.jpg/>
+    <a.jpg/>
 </jcr:root>
